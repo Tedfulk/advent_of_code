@@ -1,6 +1,7 @@
 with open("1d_2022/calories.txt", "r") as f:
     contents = f.read()
     groups = contents.split("\n\n")
+    print(groups)
     max_list = []
     for group in groups:
         item = group.splitlines()
